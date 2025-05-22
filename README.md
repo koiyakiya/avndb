@@ -1,10 +1,5 @@
-# avndb | Asynchronous VNDB Wrapper
+# avndb
 
-A simple async VNDB API wrapper for Python.
+async vndb wrapper
 
-## TODO:
-
-- [ ] Implement the rest of the POST methods
-- [ ] Come up with a way to properly nest and store labels
-- [ ] Error handling should be way more robust
-- [ ] Think about ways of optimizing?
+It's not done and it doesn't work, just a little side project i did
