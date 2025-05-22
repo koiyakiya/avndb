@@ -20,3 +20,12 @@ if __name__ == "__main__":
     asyncio.run(simple_example())
     print("--------")
     asyncio.run(with_filters())
+    # Output:
+    # ID v97: 0
+    # ID v6742: 0
+    # ID v22591: 2
+    # ID v25119: 0
+    # ID v26379: 0
+    # --------
+    # ID v97: 0
+    # ID v22591: 2
