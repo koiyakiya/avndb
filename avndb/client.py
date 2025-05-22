@@ -410,19 +410,3 @@ class VNDBClient:
             for entry in data["results"]:
                 array_of_vn.append(VN(**entry))
             return array_of_vn
-                
-     
-async def main() -> None:
-    async with VNDBClient() as client:
-        filter = VNFilter(
-            tag=["g3998", "g7"] # Clinical Depression, Horror
-        )
-        vns = await client.post_vn("saya no uta", filter=filter)
-        if vns:
-            for vn in vns: print(vn.id)
-
-if __name__ == "__main__":
-    import platform
-    if platform.system() == "Linux":
-        uvloop.install()
-    asyncio.run(main())
