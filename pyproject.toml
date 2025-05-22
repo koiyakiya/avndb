@@ -1,0 +1,11 @@
+[project]
+name = "avndb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiodns>=3.4.0",
+    "aiohttp>=3.11.18",
+    "uvloop>=0.21.0",
+]
